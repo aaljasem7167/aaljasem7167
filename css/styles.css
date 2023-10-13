@@ -2,25 +2,25 @@
 body{
     font : normal normal normal 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
     height :100vh;
-    wight 100vh;
-    background-color: hsla(200, 46%, 81%, 0.7);
+    width : 100vw;
+    background-color: hsla(235, 46%, 81%, 0.7);
 }
 h2{
-    font-size: 2res;
+    font-size: 2rem;
     color : #fc9;
 }
 header{
-    background-color: hsl(300, 50%, 50%);
+    background-color: hsl(51, 50%, 50%);
 }        
 main{
     float : left;
-    width : 70vw;
-    background-color: hsl(300, 50%, 50%);
+    width : 65vw;
+    background-color: hsl(0, 50%, 50%);
 }   
 aside{
     float : right;
-    width : 25vw
-    background-color: hsl(130, 40%, 60%)
+    width : 25vw;
+    background-color: hsl(130, 40%, 60%);
 }   
 footer{
     clear : both;
@@ -37,7 +37,7 @@ footer{
     color : yellow( 219, 60, 7)
   }
   a:hover{
-    color : #f09;
+    color : rgb(0, 255, 98);
   }
   footer p{
     font-size : .75em;
